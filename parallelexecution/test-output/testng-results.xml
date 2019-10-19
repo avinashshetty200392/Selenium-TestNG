@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29057" started-at="2019-10-19T14:02:09Z" finished-at="2019-10-19T14:02:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29057" started-at="2019-10-19T14:02:09Z" finished-at="2019-10-19T14:02:39Z">
+      <class name="parallel.ParallelExecution">
+        <test-method status="PASS" signature="initializingChrome()[pri:0, instance:parallel.ParallelExecution@1622f1b]" name="initializingChrome" duration-ms="16344" started-at="2019-10-19T14:02:10Z" finished-at="2019-10-19T14:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializingChrome -->
+        <test-method status="PASS" signature="initializingFirefox()[pri:0, instance:parallel.ParallelExecution@1622f1b]" name="initializingFirefox" duration-ms="29033" started-at="2019-10-19T14:02:10Z" finished-at="2019-10-19T14:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializingFirefox -->
+      </class> <!-- parallel.ParallelExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
