@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23267" started-at="2019-10-19T13:17:22Z" finished-at="2019-10-19T13:17:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23267" started-at="2019-10-19T13:17:22Z" finished-at="2019-10-19T13:17:45Z">
+      <class name="testrunner.MethodCallingTest">
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:testrunner.MethodCallingTest@28d25987]" name="navigateToApplication" is-config="true" duration-ms="10374" started-at="2019-10-19T13:17:22Z" finished-at="2019-10-19T13:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="loginfeature()[pri:1, instance:testrunner.MethodCallingTest@28d25987]" name="loginfeature" duration-ms="4379" started-at="2019-10-19T13:17:33Z" finished-at="2019-10-19T13:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfeature -->
+        <test-method status="PASS" signature="registerfeature()[pri:2, instance:testrunner.MethodCallingTest@28d25987]" name="registerfeature" duration-ms="162" started-at="2019-10-19T13:17:37Z" depends-on-methods="testrunner.MethodCallingTest.loginfeature" finished-at="2019-10-19T13:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerfeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testrunner.MethodCallingTest@28d25987]" name="tearDown" is-config="true" duration-ms="8330" started-at="2019-10-19T13:17:37Z" finished-at="2019-10-19T13:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testrunner.MethodCallingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
